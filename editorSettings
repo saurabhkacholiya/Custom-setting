@@ -1,21 +1,32 @@
-//cat setting.json
 {
-    "window.zoomLevel": 1,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "javascript.updateImportsOnFileMove.enabled": "never",
-    "editor.rulers": [80],
-    "workbench.colorCustomizations": {
-        "editorRuler.foreground": "#ff333388"
-    },
-    "git.autofetch": true,
-    "workbench.sideBar.location": "right",
-    "diffEditor.renderSideBySide": false,
-    "git.confirmSync": false,
-    "editor.fontSize": 13.5,
-    "editor.minimap.enabled": false,
-    "workbench.iconTheme": "vscode-icons",
-    "explorer.openEditors.visible": 0,
-    "workbench.settings.editor": "ui",
-    "breadcrumbs.enabled": false,
-    "workbench.activityBar.visible": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "editor.rulers": [80],
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#ff333388"
+  },
+  "git.path": "/usr/local/bin/git",
+  "git.autofetch": true,
+  "workbench.sideBar.location": "right",
+  "diffEditor.renderSideBySide": false,
+  "git.confirmSync": false,
+  "editor.fontSize": 13,
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.openEditors.visible": 0,
+  "workbench.settings.editor": "ui",
+  "breadcrumbs.enabled": false,
+  "editor.fontFamily": "Fira Code,Monaco, Menlo, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "eslint.codeAction.disableRuleComment": {
+    "enable": false
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "One Dark Pro",
+  "emmet.excludeLanguages": [],
+  "emmet.includeLanguages": {
+    "markdown": "html"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
