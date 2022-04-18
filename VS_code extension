@@ -32,3 +32,6 @@ code --install-extension whizkydee.material-palenight-theme
 code --install-extension xaver.theme-ysgrifennwr
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension zhuangtongfa.material-theme
+
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
